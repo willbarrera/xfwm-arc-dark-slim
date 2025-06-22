@@ -5,7 +5,9 @@ Removes window titlebar and buttons, with a solid 4-pixel border for easy resizi
 
 ## Preview
 
-![preview](preview.png)
+<p align="center">
+  <img src="preview.png" alt="Preview of xfwm-arc-dark-slim" width="340">
+</p>
 
 ## Installation
 
@@ -15,21 +17,21 @@ Removes window titlebar and buttons, with a solid 4-pixel border for easy resizi
 
    ```bash
    mkdir -p ~/.themes
-   cp -r Arc-Dark-Slim ~/.themes/
+   cp -r xfwm-arc-dark-slim ~/.themes/
     ```
 3. Apply the theme using the command line:
     ```bash
-    xfconf-query -c xfwm4 -p /general/theme -s "Arc-Dark-Slim"
+    xfconf-query -c xfwm4 -p /general/theme -s "xfwm-arc-dark-slim"
     ```
     Or use the graphical interface:
     ```
     Settings > Window Manager > Style
     ```
-    Then select Arc-Dark-Slim.
+    Then select xfwm-arc-dark-slim.
 
 ## Included
 
-- `Arc-Dark-Slim/xfwm4/` - modified XFWM4 theme files.
+- `xfwm-arc-dark-slim/xfwm4/` - modified XFWM4 theme files.
 - `preview.png` - screenshot showing the theme in use.
 
 ## Based on
